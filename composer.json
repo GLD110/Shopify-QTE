@@ -1,0 +1,6 @@
+{
+	"minimum-stability": "dev",
+	"require": {
+		"sandeepshetty/shopify_api": "dev-master"
+	}
+}

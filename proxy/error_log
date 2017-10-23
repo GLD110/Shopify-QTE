@@ -1,0 +1,2 @@
+[05-Oct-2016 00:41:45 America/Chicago] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [6] Couldn't resolve host 'https' in /home/couponhero/public_html/proxy/proxy.php on line 22
+  thrown in /home/couponhero/public_html/proxy/vendor/phpish/shopify/shopify.php on line 67

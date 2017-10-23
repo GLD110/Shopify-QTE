@@ -1,0 +1,195 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "65afd8c94337de8ba183cebf2ce6df72",
+    "content-hash": "26b1827fe4237ac501773af845e8c6a3",
+    "packages": [
+        {
+            "name": "mandrill/mandrill",
+            "version": "1.0.55",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/mailchimp/mandrill-api-php.git",
+                "reference": "da3adc10042eafac2e53de141b358a52b8e53596"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/mailchimp/mandrill-api-php/get/da3adc10042eafac2e53de141b358a52b8e53596.zip",
+                "reference": "da3adc10042eafac2e53de141b358a52b8e53596",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mandrill": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Mandrill Devs",
+                    "email": "community@mandrill.com",
+                    "homepage": "http://mandrill.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "API client library for the Mandrill email as a service platform",
+            "homepage": "https://bitbucket.org/mailchimp/mandrill-api-php",
+            "keywords": [
+                "api",
+                "email"
+            ],
+            "time": "2015-09-22 13:58:03"
+        },
+        {
+            "name": "sandeepshetty/shopify_api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sandeepshetty/shopify_api.git",
+                "reference": "20956b20c879f64cacedaf029d40d6d188f97e5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sandeepshetty/shopify_api/zipball/20956b20c879f64cacedaf029d40d6d188f97e5d",
+                "reference": "20956b20c879f64cacedaf029d40d6d188f97e5d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "sandeepshetty/wcurl": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "../wcurl/wcurl.php",
+                    "client.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sandeep Shetty",
+                    "email": "sandeep.shetty@gmail.com",
+                    "homepage": "http://sandeep.shetty.in",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple Shopify API client in PHP",
+            "homepage": "https://github.com/sandeepshetty/shopify_api",
+            "keywords": [
+                "api",
+                "shopify"
+            ],
+            "time": "2014-11-23 20:57:34"
+        },
+        {
+            "name": "sandeepshetty/wcurl",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sandeepshetty/wcurl.git",
+                "reference": "69e532773ca9306418101ca6c8edddd6c70d5427"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sandeepshetty/wcurl/zipball/69e532773ca9306418101ca6c8edddd6c70d5427",
+                "reference": "69e532773ca9306418101ca6c8edddd6c70d5427",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sandeep Shetty",
+                    "email": "sandeep.shetty@gmail.com",
+                    "homepage": "http://sandeep.shetty.in",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A convenience wrapper around PHP's cURL library",
+            "homepage": "https://github.com/sandeepshetty/wcurl",
+            "keywords": [
+                "api",
+                "curl",
+                "http"
+            ],
+            "time": "2013-04-07 01:00:07"
+        },
+        {
+            "name": "tinymce/tinymce",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tinymce/tinymce-dist.git",
+                "reference": "4576d6944b107a8a0291756e31db9854b9b85a36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/4576d6944b107a8a0291756e31db9854b9b85a36",
+                "reference": "4576d6944b107a8a0291756e31db9854b9b85a36",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "tinymce.js",
+                        "plugins/*/plugin.js",
+                        "themes/*/theme.js"
+                    ],
+                    "files": [
+                        "tinymce.min.js",
+                        "plugins/*/plugin.min.js",
+                        "themes/*/theme.min.js",
+                        "skins/**"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "description": "Web based JavaScript HTML WYSIWYG editor control.",
+            "homepage": "http://www.tinymce.com",
+            "keywords": [
+                "editor",
+                "html",
+                "javascript",
+                "richtext",
+                "tinymce",
+                "wysiwyg"
+            ],
+            "time": "2015-11-23 02:38:55"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "sandeepshetty/shopify_api": 20,
+        "tinymce/tinymce": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
